@@ -1,0 +1,83 @@
+# .gitignore
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs and databases
+*.log
+*.sql
+*.sqlite
+
+# Tools and IDEs
+node_modules/
+dist/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Miscellaneous
+*.pid
+*.seed
+*.pid.lock
+
+# Build directories and dependencies
+bin/
+obj/
+
+### IntelliJ IDEA ###
+# General output directory
+out/
+# Exceptions for certain directories
+!**/src/main/**/out/
+!**/src/test/**/out/
+# IDEA project settings
+.idea
+
+### Eclipse ###
+# Generated source code
+.apt_generated
+# Classpath settings
+.classpath
+# Factory path
+.factorypath
+# Project settings
+.project
+# Eclipse settings
+.settings
+# Spring beans cache
+.springBeans
+# STS cache
+.sts4-cache
+# Binary output
+bin/
+# Exceptions for certain directories
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+
+### NetBeans ###
+# Private project settings
+/nbproject/private/
+# Build directory
+/nbbuild/
+# Distribution directory
+/dist/
+# NetBeans distribution
+/nbdist/
+# Gradle settings for NetBeans
+/.nb-gradle/
+
+### VS Code ###
+# VS Code settings
+.vscode/
+
+### Mac OS ###
+# Mac OS system file
+.DS_Store
